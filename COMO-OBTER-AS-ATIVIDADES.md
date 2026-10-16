@@ -1,8 +1,8 @@
 # Como obter e entregar as atividades
 
-Este repositório (`Hygo/python-fullstack-iteam-2sem`) é o **material oficial do curso** e é somente para leitura. Você **não** faz as atividades aqui e **não** envia Pull Request para cá: cada aluno cria a **sua própria cópia** e trabalha nela.
+O repositório oficial do curso (`Hygo/python-fullstack-iteam-2sem`) é o **material do professor** e é somente para leitura. As atividades **não** são feitas nele e **não** se envia Pull Request para lá: cada aluno cria a **sua própria cópia** e trabalha nela.
 
-> Pull Requests abertos neste repositório são fechados automaticamente.
+> Pull Requests abertos no repositório oficial são fechados automaticamente.
 
 ## O que você precisa
 

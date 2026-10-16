@@ -3,7 +3,7 @@ Ambiente de aprendizado de pequenos desafios utilizando a linguagem de programa�
 
 ## Comece aqui
 
-Este repositório é o material oficial do curso e é somente para leitura. Para fazer as atividades, crie a sua própria cópia seguindo o passo a passo em [COMO-OBTER-AS-ATIVIDADES.md](COMO-OBTER-AS-ATIVIDADES.md).
+O repositório oficial do curso é somente para leitura. As atividades são feitas na **sua própria cópia** (criada com *Use this template*); o passo a passo está em [COMO-OBTER-AS-ATIVIDADES.md](COMO-OBTER-AS-ATIVIDADES.md).
 
 ## Conteúdo
 

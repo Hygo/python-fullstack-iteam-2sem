@@ -8,7 +8,7 @@ Professor: Msc. Hygo Sousa De Oliveira
 
 > Faça isto **antes de começar a resolver os exercícios**.
 
-Você trabalha na **sua própria cópia** do repositório do curso, e não neste repositório. Se ainda não criou a sua, siga o passo a passo de [COMO-OBTER-AS-ATIVIDADES.md](../COMO-OBTER-AS-ATIVIDADES.md).
+Faça os exercícios na **sua própria cópia** do repositório do curso. Se ainda não criou a sua, siga o passo a passo de [COMO-OBTER-AS-ATIVIDADES.md](../COMO-OBTER-AS-ATIVIDADES.md).
 
 ### 1. Copie o template
 ```bash

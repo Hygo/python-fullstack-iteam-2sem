@@ -20,7 +20,7 @@ Professor: Msc. Hygo Sousa De Oliveira
 
 ## 📌 Como resolver e entregar
 
-Você trabalha na **sua própria cópia** do repositório do curso, e não neste repositório. Se ainda não criou a sua, siga o passo a passo de [COMO-OBTER-AS-ATIVIDADES.md](../COMO-OBTER-AS-ATIVIDADES.md).
+Faça os exercícios na **sua própria cópia** do repositório do curso. Se ainda não criou a sua, siga o passo a passo de [COMO-OBTER-AS-ATIVIDADES.md](../COMO-OBTER-AS-ATIVIDADES.md).
 
 ### 1. Resolva nos próprios arquivos
 

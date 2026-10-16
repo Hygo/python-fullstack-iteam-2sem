@@ -1,8 +1,8 @@
 # Política de contribuição
 
-Este repositório é o **material oficial** do Curso de Capacitação em Desenvolvimento Full Stack (Programação em Python) e é mantido apenas pelo professor.
+O repositório oficial (`Hygo/python-fullstack-iteam-2sem`) é o **material do professor** do Curso de Capacitação em Desenvolvimento Full Stack (Programação em Python) e é mantido apenas por ele.
 
-**Pull Requests de alunos não são aceitos** e serão fechados automaticamente. Isso protege os arquivos originais do curso.
+**Pull Requests de alunos não são aceitos** no repositório oficial e serão fechados automaticamente. Isso protege os arquivos originais do curso.
 
 ## Para fazer as atividades
 

@@ -13,8 +13,10 @@ permissions:
 
 jobs:
   fechar:
-    # Não fecha PRs do dono, de membros ou de colaboradores (ex.: monitores).
-    if: ${{ !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.pull_request.author_association) }}
+    # Só vale no repositório oficial: este arquivo vai junto para as cópias dos alunos
+    # (template) e lá não deve fazer nada. Se o repositório mudar de nome, atualize aqui.
+    # Também não fecha PRs do dono, de membros ou de colaboradores (ex.: monitores).
+    if: ${{ github.repository == 'Hygo/python-fullstack-iteam-2sem' && !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.pull_request.author_association) }}
     runs-on: ubuntu-latest
     steps:
       - name: Comentar e fechar o PR
