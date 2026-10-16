@@ -1,0 +1,49 @@
+name: Fechar Pull Requests de alunos
+
+# pull_request_target roda no contexto do repositório original (com permissão
+# para comentar/fechar PRs vindos de forks). Este workflow NÃO faz checkout do
+# código do PR e NÃO executa nada vindo dele, o que o torna seguro.
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  fechar:
+    # Não fecha PRs do dono, de membros ou de colaboradores (ex.: monitores).
+    if: ${{ !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.pull_request.author_association) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comentar e fechar o PR
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+
+            const body = [
+              `Olá, @${pr.user.login}! Obrigado pelo interesse.`,
+              '',
+              'Este repositório é o material oficial do curso e **não recebe Pull Requests de alunos**, então este PR foi fechado automaticamente.',
+              '',
+              'As atividades são feitas na **sua própria cópia** do repositório. O passo a passo está em [COMO-OBTER-AS-ATIVIDADES.md](../blob/main/COMO-OBTER-AS-ATIVIDADES.md).',
+              '',
+              'Para entregar, envie ao professor o link da sua cópia pelo canal combinado com a turma.',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: pr.number,
+              body,
+            });
+
+            await github.rest.pulls.update({
+              owner,
+              repo,
+              pull_number: pr.number,
+              state: 'closed',
+            });
