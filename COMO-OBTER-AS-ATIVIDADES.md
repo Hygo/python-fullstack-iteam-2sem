@@ -51,7 +51,7 @@ Trabalhe dentro da pasta do módulo e salve o progresso na **sua** cópia:
 
 ```bash
 git add .
-git commit -m "Atividade do módulo 2 - estruturas de controle"
+git commit -m "Atividade do módulo 1 - exercícios 01 a 05"
 git push origin main
 ```
 
@@ -59,13 +59,13 @@ Faça commits pequenos e frequentes. Eles mostram o seu processo, não só o res
 
 ## 5. Receber um módulo novo
 
-Quando o professor avisar que um módulo foi liberado (exemplo com `modulo-03`):
+Os módulos são liberados aos poucos. Quando o professor avisar que um módulo foi liberado (exemplo com `modulo-02`):
 
 ```bash
 git fetch professor
-git checkout professor/main -- modulo-03
-git add modulo-03
-git commit -m "Adiciona material do módulo 3"
+git checkout professor/main -- modulo-02
+git add modulo-02
+git commit -m "Adiciona material do módulo 2"
 git push origin main
 ```
 
@@ -75,11 +75,11 @@ O `git checkout professor/main -- pasta` copia **somente aquela pasta** do profe
 
 ## 6. Entregar uma atividade
 
-1. Marque a entrega com uma tag e envie:
+1. Marque a entrega com uma tag e envie. O nome da tag é sempre `atividade-modulo-` seguido do número do módulo com dois dígitos (exemplo com o módulo 1):
 
    ```bash
-   git tag atividade-modulo-02
-   git push origin atividade-modulo-02
+   git tag atividade-modulo-01
+   git push origin atividade-modulo-01
    ```
 
 2. Envie ao professor o **link da sua cópia** e o **nome da tag**, pelo canal combinado com a turma.
