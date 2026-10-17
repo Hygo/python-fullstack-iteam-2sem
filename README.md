@@ -11,7 +11,8 @@ O repositório oficial do curso é somente para leitura. As atividades são feit
 |-------|----------|
 | [`modulo-01/`](modulo-01/) | Introdução ao Python: desafios 00 a 40 |
 | [`modulo-02/`](modulo-02/) | Estruturas de controle: 15 exercícios e template |
-| [`modulo-03_04/`](modulo-03_04/) | Avaliação de Estruturas de Dados e Funções: 17 questões de múltipla escolha |
+| [`modulo-03/`](modulo-03/) | Estrutura de dados: avaliação de 10 questões de múltipla escolha |
+| [`modulo-04/`](modulo-04/) | Definição e chamada de funções: avaliação de 7 questões de múltipla escolha |
 | [`modulo-05/`](modulo-05/) | Programação Orientada a Objetos: material em PDF e 5 exercícios |
 | [`projeto-01/`](projeto-01/) | Registry Pattern: material didático e 5 atividades |
 | [`projeto-sistema-notas/`](projeto-sistema-notas/) | Projeto: sistema de lançamento de notas (funções, arquivos e JSON) |

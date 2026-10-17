@@ -59,13 +59,13 @@ Faça commits pequenos e frequentes. Eles mostram o seu processo, não só o res
 
 ## 5. Receber um módulo novo
 
-Quando o professor avisar que um módulo foi liberado (exemplo com `modulo-03_04`):
+Quando o professor avisar que um módulo foi liberado (exemplo com `modulo-03`):
 
 ```bash
 git fetch professor
-git checkout professor/main -- modulo-03_04
-git add modulo-03_04
-git commit -m "Adiciona material do módulo 3 e 4"
+git checkout professor/main -- modulo-03
+git add modulo-03
+git commit -m "Adiciona material do módulo 3"
 git push origin main
 ```
 
