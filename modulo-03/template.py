@@ -34,11 +34,11 @@ COMO VERIFICAR O PREENCHIMENTO:
 # frutas.append("manga")
 # print(frutas[-2])
 #
-# A) "uva"
-# B) "laranja"
+# A) "laranja"
+# B) "manga"
 # C) "abacaxi"
-# D) "manga"
-# E) IndexError: list index out of range
+# D) IndexError: list index out of range
+# E) "uva"
 # ------------------------------------------------------------
 Q01 = "?"   # substitua pela sua resposta
 
@@ -50,11 +50,11 @@ Q01 = "?"   # substitua pela sua resposta
 # coordenadas[1] = 99
 # print(coordenadas)
 #
-# A) (10, 99, 30)
+# A) ValueError: índice inválido
 # B) (10, 20, 30) — atribuição ignorada silenciosamente
-# C) TypeError: 'tuple' object does not support item assignment
-# D) ValueError: índice inválido
-# E) (99, 20, 30) — índice 0 é substituído
+# C) (10, 99, 30)
+# D) (99, 20, 30) — índice 0 é substituído
+# E) TypeError: 'tuple' object does not support item assignment
 # ------------------------------------------------------------
 Q02 = "?"
 
@@ -66,11 +66,11 @@ Q02 = "?"
 # resultado = aluno.get("email", "não informado")
 # print(resultado)
 #
-# A) None
-# B) KeyError: 'email'
+# A) KeyError: 'email'
+# B) False
 # C) "não informado"
-# D) False
-# E) "Ana"
+# D) "Ana"
+# E) None
 # ------------------------------------------------------------
 Q03 = "?"
 
@@ -83,9 +83,9 @@ Q03 = "?"
 # print(len(unicos))
 #
 # A) 10
-# B) 9
-# C) 8
-# D) 7
+# B) 7
+# C) 9
+# D) 8
 # E) 6
 # ------------------------------------------------------------
 Q04 = "?"
@@ -98,10 +98,10 @@ Q04 = "?"
 # notas.sort(reverse=True)
 # print(notas[1:3])
 #
-# A) [9.0, 8.5]
-# B) [8.5, 7.0]
-# C) [8.5, 6.0]
-# D) [7.0, 6.0]
+# A) [8.5, 6.0]
+# B) [7.0, 6.0]
+# C) [8.5, 7.0]
+# D) [9.0, 8.5]
 # E) [9.0, 7.0]
 # ------------------------------------------------------------
 Q05 = "?"
@@ -115,8 +115,8 @@ Q05 = "?"
 # print(vazios)
 #
 # A) ["caneta", "caderno"]
-# B) {"borracha": 0}
-# C) ["borracha"]
+# B) ["borracha"]
+# C) {"borracha": 0}
 # D) [0]
 # E) []
 # ------------------------------------------------------------
@@ -131,11 +131,11 @@ Q06 = "?"
 # resultado = turma_a.difference(turma_b)
 # print(len(resultado))
 #
-# A) 2
-# B) 3
-# C) 4
-# D) 6
-# E) 8
+# A) 6
+# B) 4
+# C) 3
+# D) 8
+# E) 2
 # ------------------------------------------------------------
 Q07 = "?"
 
@@ -147,10 +147,10 @@ Q07 = "?"
 # pares_quadrados = [n ** 2 for n in numeros if n % 2 == 0]
 # print(pares_quadrados)
 #
-# A) [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-# B) [4, 16, 36, 64, 100]
-# C) [2, 4, 6, 8, 10]
-# D) [4, 8, 12, 16, 20]
+# A) [4, 8, 12, 16, 20]
+# B) [2, 4, 6, 8, 10]
+# C) [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# D) [4, 16, 36, 64, 100]
 # E) [1, 9, 25, 49, 81]
 # ------------------------------------------------------------
 Q08 = "?"
@@ -172,11 +172,11 @@ Q08 = "?"
 # )
 # print(total)
 #
-# A) 2
-# B) 5
-# C) 3
-# D) 8
-# E) {"backend": 5, "frontend": 3}
+# A) 8
+# B) {"backend": 5, "frontend": 3}
+# C) 2
+# D) 5
+# E) 3
 # ------------------------------------------------------------
 Q09 = "?"
 
@@ -196,11 +196,11 @@ Q09 = "?"
 # ]
 # print(aprovados)
 #
-# A) ["Carlos", "Beatriz", "Diego"]
+# A) []
 # B) ["Beatriz"]
-# C) ["Carlos", "Beatriz"]
-# D) ["Carlos", "Diego"]
-# E) []
+# C) ["Carlos", "Diego"]
+# D) ["Carlos", "Beatriz"]
+# E) ["Carlos", "Beatriz", "Diego"]
 # ------------------------------------------------------------
 Q10 = "?"
 

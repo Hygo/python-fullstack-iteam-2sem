@@ -35,11 +35,11 @@ COMO VERIFICAR O PREENCHIMENTO:
 # valor = somar(3, 4)
 # print(valor)
 #
-# A) 7
-# B) 0
+# A) NameError: resultado is not defined
+# B) 7
 # C) None
-# D) TypeError: somar() missing return
-# E) NameError: resultado is not defined
+# D) 0
+# E) TypeError: somar() missing return
 # ------------------------------------------------------------
 Q01 = "?"
 
@@ -53,11 +53,11 @@ Q01 = "?"
 # saudar("Ana")
 # saudar("Bruno", "Bom dia")
 #
-# A) "Olá, Ana!" e "Olá, Bruno!"
+# A) "Olá, Ana!" e "Bom dia, Bruno!"
 # B) "Ana, Olá!" e "Bruno, Bom dia!"
-# C) "Olá, Ana!" e "Bom dia, Bruno!"
-# D) TypeError: saudar() missing 1 required argument
-# E) None e None
+# C) None e None
+# D) "Olá, Ana!" e "Olá, Bruno!"
+# E) TypeError: saudar() missing 1 required argument
 # ------------------------------------------------------------
 Q02 = "?"
 
@@ -74,11 +74,11 @@ Q02 = "?"
 # alterar()
 # print(x)
 #
-# A) 99 e 99
-# B) 10 e 10
-# C) 99 e 10
-# D) 10 e 99
-# E) UnboundLocalError: x referenced before assignment
+# A) 10 e 99
+# B) 99 e 10
+# C) UnboundLocalError: x referenced before assignment
+# D) 10 e 10
+# E) 99 e 99
 # ------------------------------------------------------------
 Q03 = "?"
 
@@ -91,11 +91,11 @@ Q03 = "?"
 #
 # print(resumo(3, 7, 1, 9, 2))
 #
-# A) 3
-# B) 7
-# C) 8
-# D) 9
-# E) TypeError: max() takes 1 positional argument but 5 were given
+# A) TypeError: max() takes 1 positional argument but 5 were given
+# B) 9
+# C) 3
+# D) 7
+# E) 8
 # ------------------------------------------------------------
 Q04 = "?"
 
@@ -113,9 +113,9 @@ Q04 = "?"
 # print(resultado)
 #
 # A) [1, 2, 3, 4]
-# B) [2, 4, 6, 8]
-# C) [1, 4, 9, 16]
-# D) TypeError: 'function' object is not iterable
+# B) TypeError: 'function' object is not iterable
+# C) [2, 4, 6, 8]
+# D) [1, 4, 9, 16]
 # E) 8
 # ------------------------------------------------------------
 Q05 = "?"
@@ -131,11 +131,11 @@ Q05 = "?"
 #
 # print(fatorial(4))
 #
-# A) 4
-# B) 10
-# C) 16
+# A) 10
+# B) 4
+# C) RecursionError: maximum recursion depth exceeded
 # D) 24
-# E) RecursionError: maximum recursion depth exceeded
+# E) 16
 # ------------------------------------------------------------
 Q06 = "?"
 
@@ -152,8 +152,8 @@ Q06 = "?"
 # print(registrar.__doc__[:10])
 #
 # A) "Professor" e "Registra i"
-# B) "cargo"     e "Registra informações"
-# C) None        e "Registra i"
+# B) None e "Registra i"
+# C) "cargo" e "Registra informações"
 # D) "Professor" e None
 # E) KeyError: "CARGO" e "Registra i"
 # ------------------------------------------------------------
