@@ -10,7 +10,7 @@ O repositório oficial do curso é somente para leitura. As atividades são feit
 | Pasta | Conteúdo | Situação |
 |-------|----------|----------|
 | [`modulo-01/`](modulo-01/) | Introdução ao Python: desafios 00 a 40 | Liberado |
-| `modulo-02/` | Estruturas de controle | Em breve |
+| [`modulo-02/`](modulo-02/) | Estruturas de controle | Liberado |
 | `modulo-03/` | Estrutura de dados | Em breve |
 | `modulo-04/` | Definição e chamada de funções | Em breve |
 | `modulo-05/` | Programação Orientada a Objetos | Em breve |
