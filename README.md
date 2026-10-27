@@ -17,5 +17,6 @@ O repositório oficial do curso é somente para leitura. As atividades são feit
 | Projetos | Atividades práticas ao longo do curso 
 | [`Projeto Registry`](projeto-registry) | Transformando fluxo condicional em registro
 | [`Projeto Sistema Notas`](projeto-sistema-notas) | Estruturação de Projetos
+| [`Projeto Salão ITEAM`](projeto-salao) | Aplicação de Classes
 
 Cada módulo aparece aqui quando o professor liberar. Para trazê-lo para a sua cópia, veja a seção 5 de [COMO-OBTER-AS-ATIVIDADES.md](COMO-OBTER-AS-ATIVIDADES.md).
